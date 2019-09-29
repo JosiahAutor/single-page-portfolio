@@ -28,19 +28,21 @@ body {
     list-style: none;
 }
 .portfolio-menu .menu-item a{
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
 }
 .portfolio-profile {
     width: 650px;
-    height: 400px;
+    height: 275px;
     position: absolute;
     left: 50%;
     top: 0%;
     transform: translate(-50%, 50%);
     text-align: center;
+    
 }
+
 .portfolio-profile img {
     height: 275px;
     width: 250px;
@@ -56,38 +58,53 @@ body {
     font-weight: 300;
     margin: 0px;
     font-size: 2.3rem;
-    color: black;
+    color: black; 
 }
 
 /* MAIN */
 
 main {
-    background-color: grey;
-    margin: 0;
-    padding: 0;
+    background-color: lightskyblue;
+    margin: 0.1px;
+    padding: 0.1px;
     text-align: center;
 
 }
-#about {
+#About {
     padding: 45px;
     margin: 0;
-    
-    color: white;
+    color: black;
 }
-#about h2{
+#About h2 {
     padding: 0px;
+    font-size: 3rem;
 }
-#skills {
+#About p {
+    font-size: 2rem;
+}
+#Skills {
     color: white;
     background-color: darkslategray;
-
+    padding: 10px;
+    margin: 0;
+    
 }
-#skills h2{
+#Skills2 {
+    color: white;
+    background-color: darkslategray;
+    padding: 1px;
+}
+#Skills h2{
     font-size: 2.5rem;
     font-weight: 300;
     margin: 20px 0px;
 }
-#skills h3{
+#Skills2 h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 20px 0px;
+}
+#Skills h3{
     font-size: 1.8rem;
     font-weight: 300;
 }
@@ -95,7 +112,119 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+.skill-grid1 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+}
+.skill-grid2 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+}
+.skill-grid3 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+}
+.skill-grid4 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+}
+.skill-main-grid p{
+    font-size: 1.3rem;
+    text-align: center;
+}
 .skill-main-grid h2 {
     font-size: 1.5rem;
    
+}
+.skill-main-grid h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.skill-main-grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.skill-main-grid2 p{
+    font-size: 1.3rem;
+    text-align: center;
+}
+.skill-main-grid2 h2 {
+    font-size: 1.5rem;
+   
+}
+.skill-main-grid2 h3 {
+    font-size: 2rem;
+    font-weight: bold
+}
+/** Footer **/
+footer{
+    background-color: darkslategray;
+}
+form {
+    background-color: darkslategray;
+    padding: 1px; 
+    border-style: solid;
+    border-color: white;
+    border-bottom-color: darkslategray;
+    border-left-color: darkslategray;
+    border-right-color: darkslategray;
+    border-width: 3px;
+    border-style: dashed;
+    padding: 10px;  
+}
+.portfolio-form {
+    color: white;
+}
+.form-label {
+    padding: 10px 0px;
+    font-size: 1.3rem;
+}
+.form-input input{
+    width: 50%;
+    padding: 1px 0px;
+    border-radius: 8px;
+}
+.form-input input:focus{
+    transition: .7s;
+    border-color: lightblue;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123,255, .25);
+}
+.form-input-textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    width: 98%;
+    padding: 7px 0px;
+    height: 200px;
+}
+.form-input-textarea textarea:focus {
+    transition: .7s;
+    border-color: lightblue;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123,255, .25);
+}
+.form-submit {
+    margin-top: 5px;
+    text-align: right;
+}
+.btn-submit {
+    padding: 0.1px 23px;
+    text-decoration: none;
+    color: white;
+    background-color: darkslateblue;
+}
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
 }
