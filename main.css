@@ -5,6 +5,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    width: 100%;
     margin: 0px;
     top: 0;
     right: 0;
@@ -15,6 +16,7 @@ body {
     background-size: cover;
     text-align: center;
     color: white;
+    width: 100%
 }
 .portfolio-menu ul {
     margin: 0;
@@ -28,13 +30,15 @@ body {
     list-style: none;
 }
 .portfolio-menu .menu-item a{
-    color: black;
+    color: lightgray;
     text-decoration: none;
     text-transform: uppercase;
+    
+    
 }
 .portfolio-profile {
-    width: 650px;
-    height: 275px;
+    width: 90vmax;
+    height: 35vmin;
     position: absolute;
     left: 50%;
     top: 0%;
@@ -44,21 +48,23 @@ body {
 }
 
 .portfolio-profile img {
-    height: 275px;
-    width: 250px;
+    height: 47vmin;
+    width: 40vmin;
     border-radius: 50%;
 }
 .portfolio-profile h1 {
     font-weight: 300;
     margin: 15px;
-    font-size: 3.2rem;
-    color: black;
+    font-size: 7vmin;
+    color: lightgrey;
+    
 }
 .portfolio-profile h2 {
     font-weight: 300;
     margin: 0px;
-    font-size: 2.3rem;
-    color: black; 
+    font-size: 5vmin;
+    color: lightgrey; 
+    
 }
 
 /* MAIN */
@@ -118,24 +124,28 @@ main {
     margin: 10px;
     border-color: white;
     color: white;
+    padding: 1rem;
 }
 .skill-grid2 {
     border-style: dashed;
     margin: 10px;
     border-color: white;
     color: white;
+    padding: 1rem;
 }
 .skill-grid3 {
     border-style: dashed;
     margin: 10px;
     border-color: white;
     color: white;
+    padding: 1rem;
 }
 .skill-grid4 {
     border-style: dashed;
     margin: 10px;
     border-color: white;
     color: white;
+    padding: 1rem;
 }
 .skill-main-grid p{
     font-size: 1.3rem;
@@ -152,6 +162,34 @@ main {
 .skill-main-grid2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+.skill-grid1-1 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+    padding: 1rem;
+}
+.skill-grid2-2 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+    padding: 1rem;
+}
+.skill-grid3-3 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+    padding: 1rem;
+}
+.skill-grid4-4 {
+    border-style: dashed;
+    margin: 10px;
+    border-color: white;
+    color: white;
+    padding: 1rem;
 }
 .skill-main-grid2 p{
     font-size: 1.3rem;
@@ -214,7 +252,7 @@ form {
     padding: 7px 0px;
     height: 200px;
     display: block;
-    margin-left: auto;
+    margin-left: 10.4rem;
     margin-right: auto;
 }
 .form-input-textarea textarea:focus {
@@ -239,4 +277,74 @@ form {
     color: white;
     font-size: 1rem;
     padding: 10px;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 812px){
+    html, body {
+        
+        overflow-x: hidden;
+        position: sticky;
+    }
+    .portfolio-hero {
+        display: inline-block;
+        
+        
+    }
+    .portfolio-menu ul {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        padding-right: 2rem;
+        padding-top: 15px;
+        font-size: 0.9rem;
+        position: sticky;
+        
+    }
+    .portfolio-profile img{
+        height: 47vmin;
+        width: 40vmin;
+        border-radius: 50%;
+    }
+    .portfolio-profile {
+        width: 100vmax;
+        height: 35vmin;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, 50%);
+        text-align: center;
+    }
+    .portfolio-profile h1 {
+        font-size: 7vmin;
+        
+    }
+    .portfolio-profile h2 {
+        font-size: 5vmin;
+    }
+    .skill-main-grid {
+        display: table-row;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .skill-main-grid2 {
+        display: grid;
+        grid-template-columns: 49vw 49vw;
+    }
+    .skill-grid3-3 {
+        padding: 0rem;
+        padding-top: 1rem;
+    }
+    .skill-main-grid2 h3 {
+        font-size: 7vmin;
+        font-weight: bold;
+    }
+    .form-label {
+        margin-left: 3rem;
+    }
+    .form-input input{
+        margin-left: 3rem;
+    }
+    .form-input-textarea{
+        margin-left: 3rem;
+    }
 }
