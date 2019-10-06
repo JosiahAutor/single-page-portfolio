@@ -1,0 +1,23 @@
+{
+  "name": "single-page-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosiahAutor/single-page-portfolio.git"
+  },
+  "author": "Josiah Autor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosiahAutor/single-page-portfolio/issues"
+  },
+  "homepage": "https://github.com/JosiahAutor/single-page-portfolio#readme"
+}
