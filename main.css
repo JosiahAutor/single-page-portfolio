@@ -268,7 +268,7 @@ form {
 .btn-submit {
     padding: 0.1px 23px;
     text-decoration: none;
-    color: white;
+    color: gold;
     background-color: darkslateblue;
 }
 .footer {
@@ -297,13 +297,13 @@ form {
         justify-content: center;
         padding-right: 2rem;
         padding-top: 15px;
-        font-size: 0.9rem;
+        font-size: 3vmin;
         position: sticky;
         
     }
     .portfolio-profile img{
-        height: 47vmin;
-        width: 40vmin;
+        height: 52vmin;
+        width: 45vmin;
         border-radius: 50%;
     }
     .portfolio-profile {
@@ -316,11 +316,11 @@ form {
         text-align: center;
     }
     .portfolio-profile h1 {
-        font-size: 7vmin;
+        font-size: 8vmin;
         
     }
     .portfolio-profile h2 {
-        font-size: 5vmin;
+        font-size: 6vmin;
     }
     .skill-main-grid {
         display: table-row;
