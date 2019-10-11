@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
+  "homepage": "https://github.io/JosiahAutor/single-page-portfolio",
   "dependencies": {
     "gh-pages": "^2.1.1"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/JosiahAutor/single-page-portfolio/issues"
-  },
-  "homepage": "https://github.com/JosiahAutor/single-page-portfolio#readme"
+  }
+  
 }
